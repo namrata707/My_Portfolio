@@ -1,0 +1,203 @@
+import *{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background: url(pdfgb.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar.logo{
+    width: 160px;
+    cursor: pointer ;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: 1%;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+.info{
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 85px;
+    color: rgb(202, 79, 17);
+    margin-top: -2%;
+    margin-left: 1%;
+    font-family: monotype corsiva;
+
+}
+.info h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.info h3{
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-top: -3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.info a{
+    text-decoration: none;
+    color:#ffffff;
+    background: rgb(11, 64, 116);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 1%;
+    font-family: algerian;
+    font-weight: bold;
+    font-size: 22px;
+}
+.info a:hover{
+    background: rgb(244, 105, 105);
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+}
+.image{
+    display: grid;
+    place-items: center;
+    margin-left: 60%;
+    margin-top: -20%;
+    margin-right:15%;  
+     
+    
+}
+.image img{
+    width: min(25rem,90%);
+    border-radius:70%;
+    margin-left: 60%;
+    margin-right: 25%;
+    margin-top:-13%;
+    height: 300px;
+    width: 325px;
+    border:inset  ;
+    padding: 10px;
+    background-color: rgb(196, 206, 210);
+      
+    
+    
+}
+.image:hover.girl{
+    left: 60%;
+
+}
+.icons a{
+    text-decoration: none;
+    color: #000;
+
+}
+#sc{
+    color:aqua;
+    font-display: inset;
+    margin-top: -9%;
+    text-transform: uppercase;
+    font-family: algerian;
+    font-size: 25px;
+}
+.social-icon ul{
+    position: absolute;
+    top: 80%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+}
+.social-icon ul li{
+    list-style: none;
+    margin: 0 7px;
+
+}
+.social-icon ul li .fa-brands{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: rgb(17, 143, 99);
+
+}
+.social-icon ul li .fa-brands:hover{
+    color: rgb(189, 21, 105);
+
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:rgb(rgb(222, 81, 81));
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(black);
+    transition: .6s;
+}
+.social-icon ul li a:hover{
+    transform: translate(0,-10%);
+}
+.social-icon ul li:nth-child(1) a:hover{
+    background-color: rgba(rgb(69, 69, 228));
+}
+.social-icon ul li:nth-child(2) a:hover{
+    background-color: rgba(rgb(205, 32, 205));
+}
+.social-icon ul li:nth-child(3) a:hover{
+    background-color: rgba(skyblue);
+}
+
+.social-icon ul li:nth-child(4) a:hover{
+    background-color: rgba(black);
+}
+
+.social-icon ul li:nth-child(5) a:hover{
+    background-color: rgba(darkblue);
+}
+
+.social-icon ul li:nth-child(6) a:hover{
+    background-color: rgba(rgb(249, 123, 123));
+}
+   
+
+
+
+
+
+
